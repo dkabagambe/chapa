@@ -1,0 +1,1 @@
+<DiagnosticResults><ID>NetworkDiagnostics</ID><Name>Windows Network Diagnostics</Name><Publisher>Microsoft Windows</Publisher><Icon>@%windir%\diagnostics\system\Networking\DiagPackage.dll,-20006</Icon><Category/><Keyword>"IP</Keyword><Keyword>Address"</Keyword><Keyword>"DHCP"</Keyword></DiagnosticResults>

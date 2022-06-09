@@ -1,0 +1,49 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Identity-H
+Registry:Adobe
+Ordering:Identity
+OutlineFileName:C:\Program Files (x86)\Adobe\Reader 11.0\Resource\CMap\Identity-H
+FileLength:8228
+FileModTime:1348411416
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Identity-V
+Registry:Adobe
+Ordering:Identity
+UseCMap:Identity-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Reader 11.0\Resource\CMap\Identity-V
+FileLength:2761
+FileModTime:1348411416
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Identity-H
+Registry:Adobe
+Ordering:Identity
+OutlineFileName:C:\Program Files (x86)\Adobe\Reader 11.0\Resource\CMap\Identity-H
+FileLength:8228
+FileModTime:1348411416
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CMap
+CMapName:Identity-V
+Registry:Adobe
+Ordering:Identity
+UseCMap:Identity-H
+OutlineFileName:C:\Program Files (x86)\Adobe\Reader 11.0\Resource\CMap\Identity-V
+FileLength:2761
+FileModTime:1348411416
+%EndFont
+

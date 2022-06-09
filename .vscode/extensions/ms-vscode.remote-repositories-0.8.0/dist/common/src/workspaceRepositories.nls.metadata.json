@@ -1,0 +1,33 @@
+{
+	"messages": [
+		"Yes",
+		"No",
+		"This repository contains 1 file with uncommitted changes.\n\nRemoving it will cause those changes to be FOREVER LOST.\nThis is IRREVERSIBLE!\n\nAre you sure you still want to remove it?",
+		"This repository contains {0} files with uncommitted changes.\n\nRemoving it will cause those changes to be FOREVER LOST.\nThis is IRREVERSIBLE!\n\nAre you sure you still want to remove it?",
+		"Everything up to date",
+		"{0} change",
+		"{0} changes",
+		"{0} file added",
+		"{0} files added",
+		"{0} file changed",
+		"{0} files changed",
+		"{0} file deleted",
+		"{0} files deleted"
+	],
+	"keys": [
+		"remove remote repo prompt confirm",
+		"remove remote repo prompt cancel",
+		"remove remote repo prompt file changed",
+		"remove remote repo prompt files changes",
+		"no changes",
+		"summary change",
+		"changes changes",
+		"file added",
+		"files added",
+		"file changed",
+		"files changed",
+		"file deleted",
+		"files deleted"
+	],
+	"filePath": "common/src/workspaceRepositories"
+}

@@ -1,0 +1,31 @@
+{
+	"messages": [
+		"GitHub failed to respond and might be experiencing issues. Visit the [GitHub status page](https://githubstatus.com) for more information.",
+		"OK",
+		"The provided credentials are either invalid or expired.",
+		"OK",
+		"Reauthenticate",
+		"The provided credentials are either invalid or expired. Would you like to reauthenticate?",
+		"The provided credentials do not have the required access.",
+		"OK",
+		"Reauthenticate",
+		"The provided credentials do not have the required access. Would you like to reauthenticate to grant additional access?",
+		"Install",
+		"Extension '{0}' is not installed. Would you like to install the extension and reload the window to open this workspace?"
+	],
+	"keys": [
+		"github 500 error notification",
+		"ok",
+		"401 error notification",
+		"ok",
+		"401 error notification confirm",
+		"401 error notification with reauth",
+		"403 error notification",
+		"ok",
+		"403 error notification confirm",
+		"403 error notification with reauth",
+		"provider extension missing install",
+		"provider extension not installed"
+	],
+	"filePath": "extensions/remotehub/src/utils/messages"
+}

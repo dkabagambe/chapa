@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"Open indexed commit"
+	],
+	"keys": [
+		"indexedCommit"
+	],
+	"filePath": "extensions/remotehub/src/pickers/refPicker"
+}

@@ -1,0 +1,15 @@
+{
+	"messages": [
+		"Continue",
+		"Cancel",
+		"You have uncommitted changes.\n\nIf you want to see your changes on {0} or from other browsers or machines, commit them before leaving this workspace. Otherwise, you can re-open this workspace anytime and pick up right where you left off.\n\nDo you want to continue opening a new workspace?",
+		"You have uncommitted changes.\n\nIf you want to see your changes on {0} or from other machines, commit them before leaving this workspace. Otherwise, you can re-open this workspace anytime and pick up right where you left off.\n\nDo you want to continue opening a new workspace?"
+	],
+	"keys": [
+		"continue",
+		"cancel",
+		"open folder uncommitted changes web",
+		"open folder uncommitted changes"
+	],
+	"filePath": "extensions/remotehub/src/utils/workspace"
+}

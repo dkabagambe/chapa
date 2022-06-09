@@ -1,0 +1,21 @@
+{
+	"messages": [
+		"You have {0} file with uncommitted changes from a previous edit session.",
+		"You have {0} files with uncommitted changes from a previous edit session.",
+		"Your repository contents may be out of date until you sync.\n\nYou are {0} commit behind.",
+		"Your repository contents may be out of date until you sync.\n\nYou are {0} commits behind.",
+		"Sync",
+		"Continue Without Syncing",
+		"Don't Show Again"
+	],
+	"keys": [
+		"prompt uncommitted changes file",
+		"prompt uncommitted changes files",
+		"prompt incoming changes commit",
+		"prompt incoming changes commits",
+		"sync uncommitted changes",
+		"continue uncommitted changes",
+		"don't show again"
+	],
+	"filePath": "extensions/remotehub/src/openActions"
+}

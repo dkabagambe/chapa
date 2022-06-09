@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="results.xsl"?>
+<ResultReport SchemaVersion="1.0"><Header><Data id="Time" name="Time">Saturday, May 14, 2022 8:36:01 PM</Data><Data id="RunningAsAdmin" name="Running As Admin">false</Data><ComputerInformation name="CYBERSMART"><Data id="Version" name="Windows Version">10.0</Data><Data id="SKU" name="SKU">Client</Data><Data id="Architecture" name="Architecture">x64</Data></ComputerInformation><PackageInformation id="NetworkDiagnostics" name="Windows Network Diagnostics"><Data id="Version" name="Package Version">4.0</Data><Data id="Publisher" name="Publisher">Microsoft Windows</Data><Data id="Description" name="Description">Detects problems with network connectivity.</Data></PackageInformation></Header><Package><Problem><DetectionInformation><DetailedInformation><Detail id="NDFDebugLog" name="Network Diagnostics Log" verbosity="Informational"><Data id="Description" name="Description"></Data><Contents><Data id="FileName" name="File Name">4068C774-07EB-445E-93AA-9D8E5CF91544.Diagnose.0.etl</Data>
+						</Contents></Detail><Detail id="DiagInformation" name="Diagnostics Information (Network Adapter)" verbosity="Informational"><Data id="Description" name="Description"></Data><Contents><Objects><Object Type="System.String"><PRE><![CDATA[Details about network adapter diagnosis: 
+
+Network adapter Wi-Fi 2 driver information:
+
+   Description . . . . . . . . . . : Intel(R) Centrino(R) Advanced-N 6200 AGN Driver
+   Manufacturer  . . . . . . . . . : Intel Corporation
+   Provider  . . . . . . . . . . . : Microsoft
+   Version   . . . . . . . . . . . : 15.4.1.1
+   Inf File Name . . . . . . . . . : C:\Windows\INF\netwsw00.inf
+   Inf File Date . . . . . . . . . : Tuesday, March 19, 2019  4:43:34 AM
+   Section Name  . . . . . . . . . : Install_MPCIEX_Lenovo_6200_AGN_2x2_HMC_WIN7_64_MOW
+   Hardware ID . . . . . . . . . . : pci\ven_8086&dev_4239&subsys_13118086
+   Instance Status Flags . . . . . : 0x180200a
+   Device Manager Status Code  . . : 0
+   IfType  . . . . . . . . . . . . : 71
+   Physical Media Type . . . . . . : 9
+]]></PRE></Object></Objects></Contents></Detail><Detail id="DiagInformation" name="Diagnostics Information (Wireless Connectivity)" verbosity="Informational"><Data id="Description" name="Description"></Data><Contents><Objects><Object Type="System.String"><PRE><![CDATA[Details about wireless connectivity diagnosis: 
+
+Information for connection being diagnosed
+ Interface GUID: f0a25da0-9575-4242-a047-e8298ffdf2cf
+ Interface name: Intel(R) Centrino(R) Advanced-N 6200 AGN
+ Interface type: Native Wi-Fi
+
+Connection incident diagnosed
+ Auto Configuration ID: 13
+ Connection ID: 15
+
+Connection status summary
+ Connection started at: 2022-05-14 20:33:28-727
+ Profile match: Success
+ Pre-Association: Success
+ Association: Success
+ Security and Authentication: Success
+
+List of visible access point(s): 9 item(s) total, 9 item(s) displayed
+        BSSID		BSS Type PHY	Signal(dB)	Chnl/freq    SSID
+-------------------------------------------------------------------------
+5E-70-17-9D-9D-AA	Infra	 <unknown>	-23		1	 Galaxy A02s5818
+E4-7D-EB-26-CD-DE	Infra	 <unknown>	-66		4	 Edgar Mugisa
+BC-22-28-5F-B0-B9	Infra	 <unknown>	-57		1	 dlink-M920-b0b9
+C0-06-C3-12-15-16	Infra	 <unknown>	-82		6	 SKYBAK
+02-90-4C-10-E8-BA	Infra	 <unknown>	-71		6	 CASTLE
+F2-D6-20-DF-CA-16	Infra	 <unknown>	-82		7	 Abi MO
+C0-06-C3-12-14-F6	Infra	 <unknown>	-78		1	 SKYBAK
+92-64-9B-75-1A-EF	Infra	 <unknown>	-64		6	 maRk
+D8-47-32-AB-27-88	Infra	 <unknown>	-76		11	 SEGLAS
+
+Connection History
+
+ Information for Auto Configuration ID 13
+
+  List of visible networks: 8 item(s) total, 8 item(s) displayed
+  BSS Type PHY	Security	Signal(RSSI)	Compatible	SSID
+  ------------------------------------------------------------------------------
+  Infra	 <unknown>	Yes		99	Yes		Galaxy A02s5818
+  Infra	 <unknown>	Yes		56	Yes		Edgar Mugisa
+  Infra	 <unknown>	Yes		71	Yes		dlink-M920-b0b9
+  Infra	 <unknown>	No		36	Yes		SKYBAK
+  Infra	 <unknown>	Yes		48	Yes		CASTLE
+  Infra	 <unknown>	No		30	Yes		Abi MO
+  Infra	 <unknown>	Yes		60	Yes		maRk
+  Infra	 <unknown>	Yes		40	Yes		SEGLAS
+
+  List of preferred networks: 1 item(s)
+   Profile: DESKTOP-6CAC81U 5248
+    SSID: DESKTOP-6CAC81U 5248
+    SSID length: 20
+    Connection mode: Infra
+    Security: Yes
+    Set by group policy: No
+    Connect even if network is not broadcasting: No
+    Connectable: No
+     Reason: 0x00028002
+
+ Information for Connection ID 15
+ Connection started at: 2022-05-14 20:33:28-727
+  Auto Configuration ID: 13
+  Profile: Galaxy A02s5818
+  SSID: Galaxy A02s5818
+  SSID length: 15
+  Connection mode: Infra
+  Security: Yes
+  Pre-Association and Association
+   Connectivity settings provided by hardware manufacturer (IHV): No
+   Security settings provided by hardware manufacturer (IHV): No
+   Profile matches network requirements: Success
+   Pre-association status: Success
+   Association status: Success
+    Last AP:  5e-70-17-9d-9d-aa
+  Security and Authentication
+   Configured security type: WPA2-PSK
+   Configured encryption type: CCMP(AES)
+   802.1X protocol: No
+   Key exchange initiated: Yes
+    Unicast key received: Yes
+    Multicast key received: Yes
+   Number of security packets received: 0
+   Number of security packets sent: 0
+   Security attempt status: Success
+ Connectivity
+   Packet statistics
+    Ndis Rx: 2
+    Ndis Tx: 81
+    Unicast decrypt success: 2
+    Multicast decrypt success: 0
+    Unicast decrypt failure: 0
+    Multicast decrypt failure: 0
+    Rx success: 269
+    Rx failure: 0
+    Tx success: 4
+    Tx failure: 0
+    Tx retry: 0
+    Tx multiple retry: 0
+    Tx max lifetime exceeded: 0
+    Tx ACK failure: 0
+   Roaming history: 0 item(s)
+
+ Information for Auto Configuration ID 12
+
+  List of visible networks: 7 item(s) total, 7 item(s) displayed
+  BSS Type PHY	Security	Signal(RSSI)	Compatible	SSID
+  ------------------------------------------------------------------------------
+  Infra	 <unknown>	Yes		95	Yes		Galaxy A02s5818
+  Infra	 <unknown>	Yes		65	Yes		Edgar Mugisa
+  Infra	 <unknown>	Yes		61	Yes		dlink-M920-b0b9
+  Infra	 <unknown>	No		40	Yes		SKYBAK
+  Infra	 <unknown>	Yes		36	Yes		SEGLAS
+  Infra	 <unknown>	Yes		30	Yes		KATS
+  Infra	 <unknown>	Yes		51	Yes		Skylar
+
+  List of preferred networks: 1 item(s)
+   Profile: DESKTOP-6CAC81U 5248
+    SSID: DESKTOP-6CAC81U 5248
+    SSID length: 20
+    Connection mode: Infra
+    Security: Yes
+    Set by group policy: No
+    Connect even if network is not broadcasting: No
+    Connectable: No
+     Reason: 0x00028002
+
+ Information for Connection ID 14
+ Connection started at: 2022-05-14 20:32:32-874
+  Auto Configuration ID: 12
+  Profile: Discovery connection
+  SSID: Galaxy A02s5818
+  SSID length: 15
+  Connection mode: Infra
+  Security: Yes
+  Pre-Association and Association
+   Connectivity settings provided by hardware manufacturer (IHV): No
+   Security settings provided by hardware manufacturer (IHV): No
+   Profile matches network requirements: Success
+   Pre-association status: Success
+   Association status: Success
+    Last AP:  5e-70-17-9d-9d-aa
+  Security and Authentication
+   Configured security type: WPA2-PSK
+   Configured encryption type: CCMP(AES)
+   802.1X protocol: No
+   Key exchange initiated: Yes
+    Unicast key received: No
+    Multicast key received: No
+   Number of security packets received: 0
+   Number of security packets sent: 0
+   Security attempt status: Fail 0x00038001
+
+ Information for Connection ID 13
+ Connection started at: 2022-05-14 20:31:44-528
+  Auto Configuration ID: 12
+  Profile: Discovery connection
+  SSID: Galaxy A02s5818
+  SSID length: 15
+  Connection mode: Infra
+  Security: Yes
+  Pre-Association and Association
+   Connectivity settings provided by hardware manufacturer (IHV): No
+   Security settings provided by hardware manufacturer (IHV): No
+   Profile matches network requirements: Success
+   Pre-association status: Success
+   Association status: Success
+    Last AP:  5e-70-17-9d-9d-aa
+  Security and Authentication
+   Configured security type: WPA2-PSK
+   Configured encryption type: CCMP(AES)
+   802.1X protocol: No
+   Key exchange initiated: Yes
+    Unicast key received: No
+    Multicast key received: No
+   Number of security packets received: 0
+   Number of security packets sent: 0
+   Security attempt status: Fail 0x00048014
+
+ Information for Auto Configuration ID 11
+
+  List of visible networks: 5 item(s) total, 5 item(s) displayed
+  BSS Type PHY	Security	Signal(RSSI)	Compatible	SSID
+  ------------------------------------------------------------------------------
+  Infra	 <unknown>	Yes		99	Yes		Galaxy A02s5818
+  Infra	 <unknown>	Yes		53	Yes		Edgar Mugisa
+  Infra	 <unknown>	Yes		60	Yes		dlink-M920-b0b9
+  Infra	 <unknown>	No		36	Yes		SKYBAK
+  Infra	 <unknown>	Yes		38	Yes		SEGLAS
+
+  List of preferred networks: 2 item(s)
+   Profile: Galaxy A02s5818
+    SSID: Galaxy A02s5818
+    SSID length: 15
+    Connection mode: Infra
+    Security: Yes
+    Set by group policy: No
+    Connect even if network is not broadcasting: No
+    Connectable: Yes
+   Profile: DESKTOP-6CAC81U 5248
+    SSID: DESKTOP-6CAC81U 5248
+    SSID length: 20
+    Connection mode: Infra
+    Security: Yes
+    Set by group policy: No
+    Connect even if network is not broadcasting: No
+    Connectable: No
+     Reason: 0x00028002
+
+ Information for Connection ID 12
+ Connection started at: 2022-05-14 20:29:41-282
+  Auto Configuration ID: 11
+  Profile: Galaxy A02s5818
+  SSID: Galaxy A02s5818
+  SSID length: 15
+  Connection mode: Infra
+  Security: Yes
+  Pre-Association and Association
+   Connectivity settings provided by hardware manufacturer (IHV): No
+   Security settings provided by hardware manufacturer (IHV): No
+   Profile matches network requirements: Success
+   Pre-association status: Success
+   Association status: Success
+    Last AP:  5e-70-17-9d-9d-aa
+  Security and Authentication
+   Configured security type: WPA2-PSK
+   Configured encryption type: CCMP(AES)
+   802.1X protocol: No
+   Key exchange initiated: Yes
+    Unicast key received: Yes
+    Multicast key received: Yes
+   Number of security packets received: 0
+   Number of security packets sent: 0
+   Security attempt status: Success
+ Connectivity
+   Packet statistics
+    Ndis Rx: 0
+    Ndis Tx: 0
+    Unicast decrypt success: 0
+    Multicast decrypt success: 0
+    Unicast decrypt failure: 0
+    Multicast decrypt failure: 0
+    Rx success: 258
+    Rx failure: 0
+    Tx success: 74
+    Tx failure: 0
+    Tx retry: 0
+    Tx multiple retry: 0
+    Tx max lifetime exceeded: 0
+    Tx ACK failure: 0
+   Roaming history: 1 item(s)
+     Times: 2022-05-14 20:30:18-855
+    Roamed from BSSID: ]]></PRE></Object></Objects></Contents></Detail><Detail id="DiagInformation" name="Diagnostics Information (Wireless Connectivity)" verbosity="Informational"><Data id="Description" name="Description"></Data><Contents><Objects><Object Type="System.String"><PRE><![CDATA[Details about wireless connectivity diagnosis: 
+
+For complete information about this session see the wireless connectivity information event.
+
+Helper Class: Auto Configuration
+ Initialize status: Success
+
+Information for connection being diagnosed
+ Interface GUID: f0a25da0-9575-4242-a047-e8298ffdf2cf
+ Interface name: Intel(R) Centrino(R) Advanced-N 6200 AGN
+ Interface type: Native Wi-Fi
+
+Result of diagnosis: There may be problem
+
+
+
+]]></PRE></Object></Objects></Contents></Detail><Detail id="DiagInformation" name="Diagnostics Information (Wireless Network Adapter)" verbosity="Informational"><Data id="Description" name="Description"></Data><Contents><Objects><Object Type="System.String"><PRE><![CDATA[Details about wireless network adapter diagnosis: 
+
+For complete information about this session see the wireless connectivity information event.
+
+Helper Class: Native Wi-Fi MSM
+ Initialize status: Success
+
+Information for connection being diagnosed
+ Interface GUID: f0a25da0-9575-4242-a047-e8298ffdf2cf
+ Interface name: Intel(R) Centrino(R) Advanced-N 6200 AGN
+ Interface type: Native Wi-Fi
+ Profile: Galaxy A02s5818
+ SSID: Galaxy A02s5818
+ SSID length: 15
+ Connection mode: Infra
+ Security: Yes
+ Connect even if network is not broadcasting: No
+
+Result of diagnosis: There may be problem
+
+
+
+]]></PRE></Object></Objects></Contents></Detail><Detail id="NetworkData" name="Other Networking Configuration and Logs" verbosity="Informational"><Data id="Description" name="Description"></Data><Contents><Data id="FileName" name="File Name">NetworkConfiguration.cab</Data>
+						</Contents></Detail></DetailedInformation></DetectionInformation><RootCauseInformation><RootCause id="{BAA4467D-8F57-4739-879B-2CF78298177B}" name="The default gateway is not available"><Data id="Description" name="Description">The default gateway is a device that connects a local network or computer to the Internet. A broadband modem or router is usually the default gateway.</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{07d37f7b-fa5e-4443-bda7-ab107b29afb9}" name="Reset the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">This can sometimes resolve an intermittent problem.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{9513cc1c-4a26-4cb8-bf89-0a82129bd105}" name="Investigate router or broadband modem issues"><Data id="Description" name="Description">If you're connected to a hotspot or domain network, contact the network administrator. Otherwise:
+    1.  Unplug or turn off the device.
+    2.  After all the lights on the device are off, wait at least 10 seconds.
+    3.  Turn the device on or plug it back into the power outlet.
+To restart a router or modem that has a built-in battery, press and quickly release the Reset button.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{271FFA7D-FD14-4CD5-8C8F-974956ED2D92}" name="The default gateway is not available"><Data id="Description" name="Description">The default gateway is a device that connects a local network or computer to the Internet. A broadband modem or router is usually the default gateway.</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{07d37f7b-fa5e-4443-bda7-ab107b29afb9}" name="Reset the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">This can sometimes resolve an intermittent problem.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{9513cc1c-4a26-4cb8-bf89-0a82129bd105}" name="Investigate router or broadband modem issues"><Data id="Description" name="Description">If you're connected to a hotspot or domain network, contact the network administrator. Otherwise:
+    1.  Unplug or turn off the device.
+    2.  After all the lights on the device are off, wait at least 10 seconds.
+    3.  Turn the device on or plug it back into the power outlet.
+To restart a router or modem that has a built-in battery, press and quickly release the Reset button.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{245A9D66-AE9C-4518-A5B4-655752B0A5BD}" name="&quot;%InterfaceName%&quot; doesn't have a valid IP configuration"><Data id="Description" name="Description">
+					</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{07d37f7b-fa5e-4443-bda7-ab107b29afb9}" name="Reset the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">This can sometimes resolve an intermittent problem.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{9513cc1c-4a26-4cb8-bf89-0a82129bd105}" name="Investigate router or broadband modem issues"><Data id="Description" name="Description">If you're connected to a hotspot or domain network, contact the network administrator. Otherwise:
+    1.  Unplug or turn off the device.
+    2.  After all the lights on the device are off, wait at least 10 seconds.
+    3.  Turn the device on or plug it back into the power outlet.
+To restart a router or modem that has a built-in battery, press and quickly release the Reset button.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{D3C919F0-92A0-4a31-B07D-A0D189AF7DCD}" name="Another computer on the network has the same IP address as this computer"><Data id="Description" name="Description">This computer might not be able to connect to other computers and devices.</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{1A090044-E184-4991-B359-8FEA0B0EF7EA}" name="Automatically get new TCP/IP settings for the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">
+							</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{9513cc1c-4a26-4cb8-bf89-0a82129bd105}" name="Investigate router or broadband modem issues"><Data id="Description" name="Description">If you're connected to a hotspot or domain network, contact the network administrator. Otherwise:
+    1.  Unplug or turn off the device.
+    2.  After all the lights on the device are off, wait at least 10 seconds.
+    3.  Turn the device on or plug it back into the power outlet.
+To restart a router or modem that has a built-in battery, press and quickly release the Reset button.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{07d37f7b-fa5e-4443-bda7-ab107b29afb9}" name="Reset the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">This can sometimes resolve an intermittent problem.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{2D1607C2-C3D5-46bd-800D-48BE6165CE69}" name="&quot;%InterfaceName%&quot; doesn't have a valid IP configuration"><Data id="Description" name="Description">
+					</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{1A090044-E184-4991-B359-8FEA0B0EF7EA}" name="Automatically get new TCP/IP settings for the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">
+							</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{9513cc1c-4a26-4cb8-bf89-0a82129bd105}" name="Investigate router or broadband modem issues"><Data id="Description" name="Description">If you're connected to a hotspot or domain network, contact the network administrator. Otherwise:
+    1.  Unplug or turn off the device.
+    2.  After all the lights on the device are off, wait at least 10 seconds.
+    3.  Turn the device on or plug it back into the power outlet.
+To restart a router or modem that has a built-in battery, press and quickly release the Reset button.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{07d37f7b-fa5e-4443-bda7-ab107b29afb9}" name="Reset the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">This can sometimes resolve an intermittent problem.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{0F6757BD-FABF-4b88-8FD6-04713D672414}" name="&quot;%InterfaceName%&quot; doesn't have a valid IP configuration"><Data id="Description" name="Description">
+					</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{1A090044-E184-4991-B359-8FEA0B0EF7EA}" name="Automatically get new TCP/IP settings for the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">
+							</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{9513cc1c-4a26-4cb8-bf89-0a82129bd105}" name="Investigate router or broadband modem issues"><Data id="Description" name="Description">If you're connected to a hotspot or domain network, contact the network administrator. Otherwise:
+    1.  Unplug or turn off the device.
+    2.  After all the lights on the device are off, wait at least 10 seconds.
+    3.  Turn the device on or plug it back into the power outlet.
+To restart a router or modem that has a built-in battery, press and quickly release the Reset button.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{07d37f7b-fa5e-4443-bda7-ab107b29afb9}" name="Reset the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">This can sometimes resolve an intermittent problem.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{7CB28410-D5B2-4840-BDE0-A27A4E8CB36E}" name="&quot;%InterfaceName%&quot; doesn't have a valid IP configuration"><Data id="Description" name="Description">
+					</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{1A090044-E184-4991-B359-8FEA0B0EF7EA}" name="Automatically get new TCP/IP settings for the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">
+							</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{9513cc1c-4a26-4cb8-bf89-0a82129bd105}" name="Investigate router or broadband modem issues"><Data id="Description" name="Description">If you're connected to a hotspot or domain network, contact the network administrator. Otherwise:
+    1.  Unplug or turn off the device.
+    2.  After all the lights on the device are off, wait at least 10 seconds.
+    3.  Turn the device on or plug it back into the power outlet.
+To restart a router or modem that has a built-in battery, press and quickly release the Reset button.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{07d37f7b-fa5e-4443-bda7-ab107b29afb9}" name="Reset the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">This can sometimes resolve an intermittent problem.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{AA537141-C1AF-4bf0-B8A3-FCF94C877AEF}" name="The default gateway is not available"><Data id="Description" name="Description">The default gateway is a device that connects a local network or computer to the Internet. A broadband modem or router is usually the default gateway.</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{07d37f7b-fa5e-4443-bda7-ab107b29afb9}" name="Reset the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">This can sometimes resolve an intermittent problem.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{9513cc1c-4a26-4cb8-bf89-0a82129bd105}" name="Investigate router or broadband modem issues"><Data id="Description" name="Description">If you're connected to a hotspot or domain network, contact the network administrator. Otherwise:
+    1.  Unplug or turn off the device.
+    2.  After all the lights on the device are off, wait at least 10 seconds.
+    3.  Turn the device on or plug it back into the power outlet.
+To restart a router or modem that has a built-in battery, press and quickly release the Reset button.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{45449525-3F1C-4779-BF99-ACAFBAA99D63}" name="&quot;%InterfaceName%&quot; doesn't have a valid IP configuration"><Data id="Description" name="Description">
+					</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{e23b33fd-da95-4ab8-b34c-c6598b526b10}" name="Change the TCP/IP settings for the n&quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">The adapter is currently set to use a specific IP address that is incorrect, rather than obtaining an IP address automatically.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{9513cc1c-4a26-4cb8-bf89-0a82129bd105}" name="Investigate router or broadband modem issues"><Data id="Description" name="Description">If you're connected to a hotspot or domain network, contact the network administrator. Otherwise:
+    1.  Unplug or turn off the device.
+    2.  After all the lights on the device are off, wait at least 10 seconds.
+    3.  Turn the device on or plug it back into the power outlet.
+To restart a router or modem that has a built-in battery, press and quickly release the Reset button.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{07d37f7b-fa5e-4443-bda7-ab107b29afb9}" name="Reset the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">This can sometimes resolve an intermittent problem.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{0258BFF1-4161-41e5-9F8B-CD8C8D581309}" name="&quot;%InterfaceName%&quot; doesn't have a valid IP configuration"><Data id="Description" name="Description">
+					</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{e23b33fd-da95-4ab8-b34c-c6598b526b10}" name="Change the TCP/IP settings for the n&quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">The adapter is currently set to use a specific IP address that is incorrect, rather than obtaining an IP address automatically.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{9513cc1c-4a26-4cb8-bf89-0a82129bd105}" name="Investigate router or broadband modem issues"><Data id="Description" name="Description">If you're connected to a hotspot or domain network, contact the network administrator. Otherwise:
+    1.  Unplug or turn off the device.
+    2.  After all the lights on the device are off, wait at least 10 seconds.
+    3.  Turn the device on or plug it back into the power outlet.
+To restart a router or modem that has a built-in battery, press and quickly release the Reset button.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{07d37f7b-fa5e-4443-bda7-ab107b29afb9}" name="Reset the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">This can sometimes resolve an intermittent problem.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{D5FA613D-E1D7-427c-BE0B-D4AC47FF1814}" name="&quot;%InterfaceName%&quot; doesn't have a valid IP configuration"><Data id="Description" name="Description">
+					</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{e23b33fd-da95-4ab8-b34c-c6598b526b10}" name="Change the TCP/IP settings for the n&quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">The adapter is currently set to use a specific IP address that is incorrect, rather than obtaining an IP address automatically.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{9513cc1c-4a26-4cb8-bf89-0a82129bd105}" name="Investigate router or broadband modem issues"><Data id="Description" name="Description">If you're connected to a hotspot or domain network, contact the network administrator. Otherwise:
+    1.  Unplug or turn off the device.
+    2.  After all the lights on the device are off, wait at least 10 seconds.
+    3.  Turn the device on or plug it back into the power outlet.
+To restart a router or modem that has a built-in battery, press and quickly release the Reset button.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{07d37f7b-fa5e-4443-bda7-ab107b29afb9}" name="Reset the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">This can sometimes resolve an intermittent problem.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{6F13C5FB-11B4-4417-AFAE-B154B9248A1B}" name="&quot;%InterfaceName%&quot; doesn't have a valid IP configuration"><Data id="Description" name="Description">
+					</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{e23b33fd-da95-4ab8-b34c-c6598b526b10}" name="Change the TCP/IP settings for the n&quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">The adapter is currently set to use a specific IP address that is incorrect, rather than obtaining an IP address automatically.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{9513cc1c-4a26-4cb8-bf89-0a82129bd105}" name="Investigate router or broadband modem issues"><Data id="Description" name="Description">If you're connected to a hotspot or domain network, contact the network administrator. Otherwise:
+    1.  Unplug or turn off the device.
+    2.  After all the lights on the device are off, wait at least 10 seconds.
+    3.  Turn the device on or plug it back into the power outlet.
+To restart a router or modem that has a built-in battery, press and quickly release the Reset button.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{07d37f7b-fa5e-4443-bda7-ab107b29afb9}" name="Reset the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">This can sometimes resolve an intermittent problem.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{8BF857D1-0441-4f4a-8964-5D64FA736EFA}" name="Another computer on the network has the same IP address as this computer"><Data id="Description" name="Description">This computer might not be able to connect to other computers and devices.</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{e23b33fd-da95-4ab8-b34c-c6598b526b10}" name="Change the TCP/IP settings for the n&quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">The adapter is currently set to use a specific IP address that is incorrect, rather than obtaining an IP address automatically.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{9513cc1c-4a26-4cb8-bf89-0a82129bd105}" name="Investigate router or broadband modem issues"><Data id="Description" name="Description">If you're connected to a hotspot or domain network, contact the network administrator. Otherwise:
+    1.  Unplug or turn off the device.
+    2.  After all the lights on the device are off, wait at least 10 seconds.
+    3.  Turn the device on or plug it back into the power outlet.
+To restart a router or modem that has a built-in battery, press and quickly release the Reset button.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{07d37f7b-fa5e-4443-bda7-ab107b29afb9}" name="Reset the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">This can sometimes resolve an intermittent problem.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{F2F9C581-A2FB-416f-A592-567B97BFC040}" name="The default gateway is not available"><Data id="Description" name="Description">The default gateway is a device that connects a local network or computer to the Internet. A broadband modem or router is usually the default gateway.</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{e23b33fd-da95-4ab8-b34c-c6598b526b10}" name="Change the TCP/IP settings for the n&quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">The adapter is currently set to use a specific IP address that is incorrect, rather than obtaining an IP address automatically.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{9513cc1c-4a26-4cb8-bf89-0a82129bd105}" name="Investigate router or broadband modem issues"><Data id="Description" name="Description">If you're connected to a hotspot or domain network, contact the network administrator. Otherwise:
+    1.  Unplug or turn off the device.
+    2.  After all the lights on the device are off, wait at least 10 seconds.
+    3.  Turn the device on or plug it back into the power outlet.
+To restart a router or modem that has a built-in battery, press and quickly release the Reset button.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{07d37f7b-fa5e-4443-bda7-ab107b29afb9}" name="Reset the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">This can sometimes resolve an intermittent problem.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{55442987-1231-4796-BAE6-A27A4E899857}" name="&quot;%InterfaceName%&quot; doesn't have a valid IP configuration"><Data id="Description" name="Description">The network adapter is set up to use DHCP to obtain its configuration, but a DHCP server is not available on the network.</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{07d37f7b-fa5e-4443-bda7-ab107b29afb9}" name="Reset the &quot;%InterfaceName%&quot; adapter"><Data id="Description" name="Description">This can sometimes resolve an intermittent problem.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{9513cc1c-4a26-4cb8-bf89-0a82129bd105}" name="Investigate router or broadband modem issues"><Data id="Description" name="Description">If you're connected to a hotspot or domain network, contact the network administrator. Otherwise:
+    1.  Unplug or turn off the device.
+    2.  After all the lights on the device are off, wait at least 10 seconds.
+    3.  Turn the device on or plug it back into the power outlet.
+To restart a router or modem that has a built-in battery, press and quickly release the Reset button.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{1C0B07EF-01C8-4d1f-B137-1C078BB4383C}" name="Problem with wireless adapter or access point"><Data id="Description" name="Description"></Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{07d37f7b-fa5e-4443-bda7-ab107b29afb9}" name="Reset the wireless adapter"><Data id="Description" name="Description"></Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{9513cc1c-4a26-4cb8-bf89-0a82129bd105}" name="Investigate router or access point issues"><Data id="Description" name="Description">If you're connected to a hotspot or domain network, contact the network administrator. Otherwise:
+    1.  Unplug or turn off the device.
+    2.  After all the lights on the device are off, wait at least 10 seconds.
+    3.  Turn the device back on or plug it back into the power outlet.
+To restart a router or access point that has a built-in battery, press and quickly release the Reset button.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{46EC1E49-CA70-4561-9AB7-009F6B1B3709}" name="There might be a problem with the driver for the %InterfaceName% adapter"><Data id="Description" name="Description">Windows couldn't automatically bind the IP protocol stack to the network adapter.</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{4406F2CC-9CBD-4098-A03A-E5C9810E4895}" name="Set up the %FriendlyInterfaceName% adapter"><Data id="Description" name="Description">Set up the network adapter to communicate with this network. This ensures that both Internet Protocol Version 4 (TCP/IPv4) and Internet Protocol Version 6 (TCP/IPv6) can be used on the network adapter.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{713CFC83-BB98-4c4d-93F6-D576BC8D9A0A}" name="The %FriendlyInterfaceName% adapter is experiencing problems"><Data id="Description" name="Description">Windows Help and Support can provide more information about resolving driver or hardware issues.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{00E060F8-60C9-4273-B140-3A990C1616DA}" name="The Windows wireless service is not running on this computer"><Data id="Description" name="Description">The Windows wireless service is also called the WLAN Autoconfig service.</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{f2bf7e44-9e8b-4bb2-aead-879fe983f222}" name="Start the Windows wireless service"><Data id="Description" name="Description">The Windows wireless service is not running on this computer.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{E42E5B5A-16E0-43f1-AB32-C94C608D269D}" name="Your computer does not meet the requirements for DirectAccess"><Data id="Description" name="Description">Accessing the domain network over DirectAccess requires that your computer be running Windows Server 2008 R2, Windows 7 Enterprise, Windows 7 Ultimate or later. Your computer must be joined to a domain, and your network administrator must have configured DirectAccess for your organization.</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{771D57A9-5E2C-44e0-B490-CEB24EEDA882}" name="Configure your computer to be compatible with DirectAccess"><Data id="Description" name="Description">Make sure your computer is running Windows Server 2008 R2, Windows 7 Enterprise, Windows 7 Ultimate or later. Your computer must be joined to a domain, and your network administrator must have configured DirectAccess for your organization.
+
+If these requirements are met, use an Ethernet, wireless, or VPN connection to connect your computer to the domain.  This will update settings controlled by your network administrator.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{F4148D83-8526-48e2-B21A-01894ECCE98C}" name="The Diagnostics Policy Service is not running"><Data id="Description" name="Description">Network Diagnostics cannot be run without the Diagnostics Policy Service.</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{EFA6117E-D1D2-4ab2-B4AA-9582A36AC30C}" name="Start the Diagnostics Policy Service"><Data id="Description" name="Description">Network Diagnostics requires that the Diagnostics Policy Service be running.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{A693C86C-3907-4467-8A92-F360C3482C01}" name="The Diagnostics Policy Service is disabled"><Data id="Description" name="Description">Network Diagnostics cannot be run without the Diagnostics Policy Service.</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{61F49208-2D8F-4dfb-B9F2-9CC74708C7BF}" name="Start the Diagnostics Policy Service automatically"><Data id="Description" name="Description">Network Diagnostics requires that the Diagnostics Policy Service be running.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{6880DE42-9ED5-454a-8490-BA407BEABC22}" name="Windows is in Safe Mode."><Data id="Description" name="Description">
+					</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{9A4CFB56-4787-42a1-98D5-14D34F1EA839}" name="Reboot your computer to exit Safe Mode"><Data id="Description" name="Description">Network Diagnostics cannot be run in Safe Mode.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{000000000-0000-0000-0000-000000000001}" name="%RootCauseName%"><Data id="Description" name="Description">%RootCauseDescription%</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{000000000-0000-0000-0000-000000000001}" name="%RepairName%"><Data id="Description" name="Description">%RepairDescription%</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{000000000-0000-0000-0000-000000000002}/22876540-9123-2765-1989-A27A4E819008:-1862589296" name="DHCP is not enabled for &quot;Wi-Fi 2&quot;"><Data id="Description" name="Description"></Data><Data id="Status" name="Status">Detected</Data><ResolutionInformation><Resolution id="{000000000-0000-0000-0000-000000000001}" name="Automatically update your network settings"><Data id="Description" name="Description">Windows can detect the correct network settings for you.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{000000000-0000-0000-0000-000000000003}" name="%RootCauseName%"><Data id="Description" name="Description">%RootCauseDescription%</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{000000000-0000-0000-0000-000000000001}" name="%RepairName%"><Data id="Description" name="Description">%RepairDescription%</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{000000000-0000-0000-0000-000000000002}" name="%RepairName1%"><Data id="Description" name="Description">%RepairDescription1%</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{000000000-0000-0000-0000-000000000004}" name="%RootCauseName%"><Data id="Description" name="Description">%RootCauseDescription%</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{000000000-0000-0000-0000-000000000001}" name="%RepairName%"><Data id="Description" name="Description">%RepairDescription%</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{000000000-0000-0000-0000-000000000002}" name="%RepairName1%"><Data id="Description" name="Description">%RepairDescription1%</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{000000000-0000-0000-0000-000000000005}" name="%RootCauseName%"><Data id="Description" name="Description">%RootCauseDescription%</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{000000000-0000-0000-0000-000000000001}" name="%RepairName%"><Data id="Description" name="Description">%RepairDescription%</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution><Resolution id="{000000000-0000-0000-0000-000000000002}" name="%RepairName1%"><Data id="Description" name="Description">%RepairDescription1%</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{000000000-0000-0000-0000-000000000006}" name="%RootCauseName%"><Data id="Description" name="Description">%RootCauseDescription%</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{000000000-0000-0000-0000-000000000001}" name="%RepairName%"><Data id="Description" name="Description">%RepairDescription%</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{000000000-0000-0000-0000-000000000007}" name="%RootCauseName%"><Data id="Description" name="Description">%RootCauseDescription%</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{000000000-0000-0000-0000-000000000001}" name="%RepairName%"><Data id="Description" name="Description">%RepairDescription%</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{DFA35F24-DD2F-4c37-87AE-5D7A8B508786}" name="An Ethernet cable is not properly plugged in or might be broken"><Data id="Description" name="Description">
+					</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{4c1db172-9a9e-4b1a-bdab-24021291a158}" name="Plug an Ethernet cable into the network adapter &quot;%InterfaceName%&quot;"><Data id="Description" name="Description">An Ethernet cable looks like a telephone cable but with larger connectors on the ends. Plug this cable into the opening on the back or side of the computer.
+Make sure the other end of the cable is plugged into the router. If that does not help, try using a different cable.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{4DA030B8-86E5-4b6a-A879-2FFF8443B527}" name="A network cable is not properly plugged in or may be broken"><Data id="Description" name="Description">
+					</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{1296DFF0-D04E-4be1-A512-90F04DDFA3E6}" name="Plug an Ethernet cable into this computer"><Data id="Description" name="Description">An Ethernet cable looks like a telephone cable but with larger connectors on the ends. Plug this cable into the opening on the back or side of the computer.
+Make sure the other end of the cable is plugged into the router. If that does not help, try using a different cable.</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause><RootCause id="{60372FD2-AD60-45c2-BD83-6B827FC438DF}" name="The %InterfaceName% adapter is disabled"><Data id="Description" name="Description">
+					</Data><Data id="Status" name="Status">Not Checked</Data><ResolutionInformation><Resolution id="{07d37f7b-fa5e-4443-bda7-AB107B29AFB6}" name="Enable the %FriendlyInterfaceName% adapter"><Data id="Description" name="Description">
+							</Data><Data id="Status" name="Status">Not Run</Data><DetailedInformation/></Resolution></ResolutionInformation><DetectionInformation><DetailedInformation/></DetectionInformation></RootCause></RootCauseInformation></Problem></Package></ResultReport>

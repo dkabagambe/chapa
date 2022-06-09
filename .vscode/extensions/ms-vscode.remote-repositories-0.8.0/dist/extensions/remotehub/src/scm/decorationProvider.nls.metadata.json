@@ -1,0 +1,31 @@
+{
+	"messages": [
+		"Pending Incoming Changes (Added)",
+		"Pending Incoming Changes (Deleted)",
+		"Pending Incoming Changes (Modified)",
+		"Pending Incoming Changes",
+		"Merge Conflicts ({0})",
+		"Possible Merge Conflicts (Added)",
+		"Possible Merge Conflicts (Deleted)",
+		"Possible Merge Conflicts",
+		"Possible Merge Conflicts",
+		"Added",
+		"Modified",
+		"Deleted"
+	],
+	"keys": [
+		"decoration tooltip incoming change added",
+		"decoration tooltip incoming change deleted",
+		"decoration tooltip incoming change modified",
+		"decoration tooltip incoming change",
+		"decoration tooltip conflicts",
+		"decoration tooltip possible conflict added",
+		"decoration tooltip possible conflict deleted",
+		"decoration tooltip possible conflict",
+		"decoration tooltip possible conflict",
+		"decoration tooltip added",
+		"decoration tooltip modified",
+		"decoration tooltip deleted"
+	],
+	"filePath": "extensions/remotehub/src/scm/decorationProvider"
+}

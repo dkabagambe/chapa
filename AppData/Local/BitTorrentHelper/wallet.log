@@ -1,0 +1,13 @@
+[2022-05-09 14:22:04.236] [logger] [info] x:\jenkins-workspace\workspace\token-wallet-pipeline\src\main.cpp::355::Helper process started
+[2022-05-09 14:22:04.310] [logger] [info] x:\jenkins-workspace\workspace\token-wallet-pipeline\src\analytics_ping.cpp::529::Sending bench ping: startup.launched
+[2022-05-09 14:22:16.558] [logger] [info] x:\jenkins-workspace\workspace\token-wallet-pipeline\src\analytics_ping.cpp::529::Sending bench ping: ledger.create_account.success
+[2022-05-09 14:22:16.558] [logger] [info] x:\jenkins-workspace\workspace\token-wallet-pipeline\src\ledger.cpp::769::ledger_create_account_success
+[2022-05-09 14:22:16.561] [logger] [info] x:\jenkins-workspace\workspace\token-wallet-pipeline\src\analytics_ping.cpp::529::Sending bench ping: startup.ledger_init
+[2022-05-09 14:22:17.306] [logger] [info] x:\jenkins-workspace\workspace\token-wallet-pipeline\src\analytics_ping.cpp::529::Sending bench ping: cfu.helper.1957
+[2022-05-09 14:22:17.306] [logger] [info] x:\jenkins-workspace\workspace\token-wallet-pipeline\src\main.cpp::611::Running io_context
+[2022-05-09 14:22:17.307] [logger] [info] x:\jenkins-workspace\workspace\token-wallet-pipeline\src\analytics_ping.cpp::529::Sending bench ping: startup.enter_event_loop
+[2022-05-09 14:22:17.311] [logger] [info] x:\jenkins-workspace\workspace\token-wallet-pipeline\src\analytics_ping.cpp::529::Sending bench ping: bt_con.handshake
+[2022-05-09 14:22:17.348] [logger] [error] x:\jenkins-workspace\workspace\token-wallet-pipeline\src\ledger.cpp::1200::FAILED: handle_get_email_information. Status: -5
+[2022-05-09 14:22:17.556] [logger] [info] x:\jenkins-workspace\workspace\token-wallet-pipeline\src\analytics_ping.cpp::529::Sending bench ping: adjust_balance.confirmed
+[2022-05-09 14:22:17.556] [logger] [info] x:\jenkins-workspace\workspace\token-wallet-pipeline\src\ledger.cpp::1167::adjust_balance_confirmed. Balance remains unchanged: 0
+[2022-05-09 14:22:18.310] [logger] [error] x:\jenkins-workspace\workspace\token-wallet-pipeline\src\airdrop.cpp::44::Invalid Response status returned from Airdrop service false

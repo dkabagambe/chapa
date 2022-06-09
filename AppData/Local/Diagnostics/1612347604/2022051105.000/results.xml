@@ -1,0 +1,1 @@
+<DiagnosticResults><ID>NetworkDiagnosticsNetworkAdapter</ID><Name>Network Adapter</Name><Publisher>Microsoft Corporation</Publisher><Icon>@%windir%\diagnostics\system\Networking\DiagPackage.dll,-20003</Icon><Category>Network</Category><Keyword>"gateway</Keyword><Keyword>unreachable"</Keyword></DiagnosticResults>
