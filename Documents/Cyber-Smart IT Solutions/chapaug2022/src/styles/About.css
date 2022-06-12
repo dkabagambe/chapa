@@ -1,0 +1,117 @@
+.app-about {
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.app-info {
+  align-items: center;
+  padding: 10px 1px;
+  flex: 0.5;
+  justify-content: space-evenly;
+}
+.app-info h3 {
+  margin: 1rem 0;
+  font-size: 20px;
+  color: var(--color-black);
+  padding: 5px;
+  align-items: center;
+  font-family: var(--font-base);
+}
+.app-info h1 {
+  font-size: 2rem;
+  color: var(--color-black);
+  padding: 5px;
+  align-items: center;
+  font-weight: 600;
+  font-family: var(--font-base);
+}
+.app-info > p {
+  margin-bottom: 1rem 0;
+  font-size: 20px;
+  color: var(--color-black);
+  align-items: center;
+  padding-bottom: 5px;
+  font-size: 400;
+  font-family: garamond;
+}
+.ab-image {
+  padding: 10px 5px;
+}
+.ab-image > img {
+  padding: 5px;
+  width: 70vh;
+  height: auto;
+}
+
+@media screen and (min-width: 2000px) {
+  .app-about {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .app-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ab-image {
+    width: 70vh;
+  }
+  .app-info h1 {
+    font-size: 2rem;
+    color: var(--color-black);
+  }
+  .app-info p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .ab-image {
+    width: 70vh;
+  }
+  .app-about {
+    display: flex;
+    flex-direction: column;
+  }
+  .app-info > h1 {
+    font-size: 2rem;
+    color: var(--color-black);
+  }
+  .app-info > h3 {
+    font: size 20px;
+    font-weight: 500;
+    color: #000;
+  }
+  .app-info p {
+    font-size: 18px;
+    color: var(--color-black);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .ab-image {
+    width: 70vh;
+  }
+  .app-about {
+    display: flex;
+    flex-direction: column;
+  }
+  .app-info h1 {
+    font-size: 1rem;
+    color: var(--color-black);
+  }
+  .app-info h3 {
+    font-size: 17px;
+    color: var(--color-black);
+  }
+  .app-info p {
+    font-size: 15px;
+    color: var(--color-black);
+  }
+}
